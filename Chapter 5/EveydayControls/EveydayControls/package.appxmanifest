@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="07943e65-7d52-4117-847d-01962d4edaa5" Version="1.0.0.0" Publisher="CN=Bill" />
+  <Properties>
+    <DisplayName>EveydayControls</DisplayName>
+    <Description>EveydayControls</Description>
+    <PublisherDisplayName>Bill</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2</OSMinVersion>
+    <OSMaxVersionTested>6.2</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="Pages\Slider.html">
+      <VisualElements DisplayName="EveydayControls" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="EveydayControls" ForegroundText="light" BackgroundColor="#000000">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="images\splashscreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

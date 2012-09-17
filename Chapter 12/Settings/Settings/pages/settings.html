@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>settings</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+    
+    <link href="settings.css" rel="stylesheet" />
+    <script src="settings.js"></script>
+    <script type="text/javascript" src="/js/tempSettings.js"></script>
+</head>
+<body>
+    <div id="settings" data-win-control="WinJS.UI.SettingsFlyout" aria-label="Settings flyout" data-win-options="{width:'wide'}">
+        <div class="win-header">
+            <button type="button" onclick="WinJS.UI.SettingsFlyout.show()" class="win-backbutton">
+            </button>
+            <div class="win-label">Settings</div>
+        </div>
+        <div class="win-content">
+            <div id="settingsDiv">
+                <div id="”isUpToggle”" data-win-control="WinJS.UI.ToggleSwitch" data-win-options="{title: 'Is Up', labelOn:'Yup', labelOff:'Nope'}"></div>
+                <div id="isDownToggle" data-win-control="WinJS.UI.ToggleSwitch" data-win-options="{title: 'Is Down', labelOn:'Yup', labelOff:'Nope'}"></div>
+                <div id="isBackwardToggle" data-win-control="WinJS.UI.ToggleSwitch" data-win-options="{title: 'Is Backward', labelOn:'Yup', labelOff:'Nope'}"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

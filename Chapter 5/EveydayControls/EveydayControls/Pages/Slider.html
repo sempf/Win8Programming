@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Slider</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet">
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+    
+    <link href="Slider.css" rel="stylesheet">
+    <script src="Slider.js"></script>
+</head>
+<body>
+    <div class="Slider fragment" style="padding-left: 120px;">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Welcome to Slider</span>
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+            <img src="../images/c_catalogcover.jpg" /><br />
+            I am <div id="percentComplete">0</div> percent done with this book.<br />
+            <input id="slider" type="range" min="0" max="100" step="1" value="0"/>
+        </section>
+    </div>
+</body>
+</html>

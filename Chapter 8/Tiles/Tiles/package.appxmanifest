@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="91b0ed20-1139-4a4b-88c1-40f0f1cdd002" Version="1.0.0.0" Publisher="CN=Bill" />
+  <Properties>
+    <DisplayName>Tiles</DisplayName>
+    <Description>Tiles</Description>
+    <PublisherDisplayName>Bill</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2</OSMinVersion>
+    <OSMaxVersionTested>6.2</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="Tiles" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="Tiles" ForegroundText="dark" BackgroundColor="#FFFFFF">
+        <DefaultTile ShowName="allLogos" WideLogo="images\WideLogo.png" ShortName="Tiles Sample" />
+        <SplashScreen Image="images\splashscreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

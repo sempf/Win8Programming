@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>07943e65-7d52-4117-847d-01962d4edaa5</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).props" />
+  <PropertyGroup>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetPlatformVersion>8.0</TargetPlatformVersion>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <PackageCertificateKeyFile>EveydayControls_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateThumbprint>A1DAF2C0518A0F618E889E92E4C66697DC211FD2</PackageCertificateThumbprint>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include="default.html" />
+    <Content Include="images\c_catalogcover.jpg" />
+    <Content Include="Pages\Checkbox.css" />
+    <Content Include="Pages\Checkbox.html" />
+    <Content Include="Pages\Checkbox.js" />
+    <Content Include="Pages\DateAndTimePicker.css" />
+    <Content Include="Pages\DateAndTimePicker.html" />
+    <Content Include="Pages\DateAndTimePicker.js" />
+    <Content Include="Pages\Div.css" />
+    <Content Include="Pages\Div.html" />
+    <Content Include="Pages\Div.js" />
+    <Content Include="Pages\FixedProgress.css" />
+    <Content Include="Pages\FixedProgress.html" />
+    <Content Include="Pages\FixedProgress.js" />
+    <Content Include="Pages\FlexibleProgress.css" />
+    <Content Include="Pages\FlexibleProgress.html" />
+    <Content Include="Pages\FlexibleProgress.js" />
+    <Content Include="Pages\pagecontrol.css" />
+    <Content Include="Pages\pagecontrol.html" />
+    <Content Include="Pages\pagecontrol.js" />
+    <Content Include="Pages\Ratings.css" />
+    <Content Include="Pages\Ratings.html" />
+    <Content Include="Pages\Ratings.js" />
+    <Content Include="Pages\Select.css" />
+    <Content Include="Pages\Select.html" />
+    <Content Include="Pages\Select.js" />
+    <Content Include="Pages\Slider.css" />
+    <Content Include="Pages\Slider.html" />
+    <Content Include="Pages\Slider.js" />
+    <Content Include="Pages\Textbox.css" />
+    <Content Include="Pages\Textbox.html" />
+    <Content Include="Pages\Textbox.js" />
+    <Content Include="Pages\ToggleSwitch.css" />
+    <Content Include="Pages\ToggleSwitch.html" />
+    <Content Include="Pages\ToggleSwitch.js" />
+    <None Include="EveydayControls_TemporaryKey.pfx" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\smalllogo.png" />
+    <Content Include="images\splashscreen.png" />
+    <Content Include="images\storelogo.png" />
+    <Content Include="js\default.js" />
+    <Content Include="css\default.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

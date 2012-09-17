@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "Microsoft Advertising", "Microsoft Advertising\Microsoft Advertising.jsproj", "{FFF7F3C2-D38C-4EB1-91D2-9408D8F17EAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFF7F3C2-D38C-4EB1-91D2-9408D8F17EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF7F3C2-D38C-4EB1-91D2-9408D8F17EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF7F3C2-D38C-4EB1-91D2-9408D8F17EAB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FFF7F3C2-D38C-4EB1-91D2-9408D8F17EAB}.Debug|ARM.ActiveCfg = Debug|ARM
+		{FFF7F3C2-D38C-4EB1-91D2-9408D8F17EAB}.Debug|ARM.Build.0 = Debug|ARM
+		{FFF7F3C2-D38C-4EB1-91D2-9408D8F17EAB}.Debug|ARM.Deploy.0 = Debug|ARM
+		{FFF7F3C2-D38C-4EB1-91D2-9408D8F17EAB}.Debug|x64.ActiveCfg = Debug|x64
+		{FFF7F3C2-D38C-4EB1-91D2-9408D8F17EAB}.Debug|x64.Build.0 = Debug|x64
+		{FFF7F3C2-D38C-4EB1-91D2-9408D8F17EAB}.Debug|x64.Deploy.0 = Debug|x64
+		{FFF7F3C2-D38C-4EB1-91D2-9408D8F17EAB}.Debug|x86.ActiveCfg = Debug|x86
+		{FFF7F3C2-D38C-4EB1-91D2-9408D8F17EAB}.Debug|x86.Build.0 = Debug|x86
+		{FFF7F3C2-D38C-4EB1-91D2-9408D8F17EAB}.Debug|x86.Deploy.0 = Debug|x86
+		{FFF7F3C2-D38C-4EB1-91D2-9408D8F17EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF7F3C2-D38C-4EB1-91D2-9408D8F17EAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFF7F3C2-D38C-4EB1-91D2-9408D8F17EAB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FFF7F3C2-D38C-4EB1-91D2-9408D8F17EAB}.Release|ARM.ActiveCfg = Release|ARM
+		{FFF7F3C2-D38C-4EB1-91D2-9408D8F17EAB}.Release|ARM.Build.0 = Release|ARM
+		{FFF7F3C2-D38C-4EB1-91D2-9408D8F17EAB}.Release|ARM.Deploy.0 = Release|ARM
+		{FFF7F3C2-D38C-4EB1-91D2-9408D8F17EAB}.Release|x64.ActiveCfg = Release|x64
+		{FFF7F3C2-D38C-4EB1-91D2-9408D8F17EAB}.Release|x64.Build.0 = Release|x64
+		{FFF7F3C2-D38C-4EB1-91D2-9408D8F17EAB}.Release|x64.Deploy.0 = Release|x64
+		{FFF7F3C2-D38C-4EB1-91D2-9408D8F17EAB}.Release|x86.ActiveCfg = Release|x86
+		{FFF7F3C2-D38C-4EB1-91D2-9408D8F17EAB}.Release|x86.Build.0 = Release|x86
+		{FFF7F3C2-D38C-4EB1-91D2-9408D8F17EAB}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

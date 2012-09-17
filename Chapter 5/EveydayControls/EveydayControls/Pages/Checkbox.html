@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Checkbox</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet">
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+    
+    <link href="Checkbox.css" rel="stylesheet">
+    <script src="Checkbox.js"></script>
+</head>
+<body>
+    <div class="Checkbox fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Welcome to Checkbox</span>
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+            <div id="mediumListIconTextTemplate" data-win-control="WinJS.Binding.Template">
+                <div style="width: 480px">
+                    <input type="checkbox" data-win-bind="checked: complete" /><label data-win-bind="innerText: task" style="font-size: 18pt"></label>
+                </div>
+            </div>
+            <div id="todayList" data-win-control="WinJS.UI.ListView" 
+                data-win-options="{itemDataSource : dataList, itemTemplate: select('#mediumListIconTextTemplate')}" style="margin-left: 5%; margin-right: 5%; width: 514.4px; left: 0px; top: 16px;">
+            </div>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Textbox</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet">
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+    
+    <link href="Textbox.css" rel="stylesheet">
+    <script src="Textbox.js"></script>
+</head>
+<body>
+    <div class="Textbox fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Welcome to Textbox</span>
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+            <p>Content goes here.</p>
+            <input id="Text1" type="text" />
+            <input id="Text2" type="text" />
+            <div id="youTyped"></div>
+            <input id="Button1" type="button" value="button" />
+        </section>
+    </div>
+</body>
+</html>
